@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hit my Hotline</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="nav-wrapper">
+        <div class="left-side">
+          
+            <div class="nav-link-wrapper">
+              <a href="index.html">home</a>
+            </div>
+          
+            <div class="nav-link-wrapper">
+              <a href="about.html">ABOUT
+            </div>
+            <div class="nav-link-wrapper">
+              <a href="image.html">Portfolio</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="resume.html">Resume</a>
+            </div> 
+        </div>
+        
+        <div class="right-side">
+            <div class="brand">
+              <div>Contact Page</div>
+            </div>  
+        </div>    
+      </div>
+    <form formaction="./result.html">
+    <h1>Hit My Line</h1>
+    <div>
+        <label>First Name</label><br>
+        <input type="fname" class="textinput" name="first" placeholder="first"><br>
+    </div>
+    <div>
+        <label>Last Name</label><br>
+        <input type="lname" class="textinput" name="last" placeholder="last"><br>
+    </div>
+    <label for="email">Email</label><br>
+    <input type='email' class="textinput" name="email" id="email" placeholder="email" minlength="5" maxlength="50" required><br>
+    <label for="comments">Comments:</label><br>
+    <textarea name="comments" id="comments" placeholder="comments" minlength="20" maxlength="500" rows="5" cols="50"></textarea><br>
+    <label>How did you hear about me?</label>
+    <ul class="hear">
+        <li><input type="radio" name="checkbox" id="classmate">Classmate</li>
+        <li><input type="radio" name="checkbox" id="resume">Resume Submission</li>
+        <li><input type="radio" name="checkbox" id="linkedin">LinkedIn</li>
+        <li><input type="radio" name="checkbox" id="academy">Coding Academy</li>
+    </ul>
+    <label>Do you wish to be contacted back?</label>
+    <ul>
+        <li><input type="radio" id="yes" name="back" value="yes">Yes</li>
+        <li><input type="radio" id="no" name="back" value="no">No</li>
+    </ul><br>
+    <div class="personal">
+    <label>Would you like a personal birthhday wish each year?<br></label><br>
+    <input type="date" class="textinput" id="birthday" name="birthday">
+    </div>
+    <br>
+    <input type="submit" name="submit" id="submit">
+    <form></form>
+</body>
+</html>

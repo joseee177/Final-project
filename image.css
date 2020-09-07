@@ -1,0 +1,73 @@
+/*nav styling*/
+.nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+.left-side{
+  display: flex;
+  
+}
+.nav-wrapper > .left-side > div{
+ margin-right: 20px;
+ font-size: 0.9em;
+ text-transform: uppercase;
+  
+}
+.nav-link-wrapper{
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s
+}
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black
+}
+.nav-link-wrapper a:hover{
+  color: black;
+}
+/*body*/
+.main-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: slategray;
+  padding: 5px;
+  margin: 50px;
+  height: auto;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+
+}
+.main-container a:link{
+  color:whitesmoke;
+  text-decoration: none;
+  
+}
+.main-container a:hover{
+  text-decoration: underline;
+}
+.main-container a:visited{
+  color: rgba(247, 4, 146, 0.185);
+  text-shadow: 1px 2px 2px white;
+}
+.container{
+  text-align: center;
+  border: 2px solid black;
+  height: 360px;
+}
+.first {
+  background-image: url(tictac.jpg);
+  width: auto;
+}
+.second{
+  background-image: url(data.jpg);
+}
+.third{
+  background-image: url(blog.jpg);
+}
